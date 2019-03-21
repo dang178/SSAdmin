@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Main page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' type='text/css' href='https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link href='https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/ionicons/4.4.8/css/ionicons.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/admin-lte/2.4.9/css/AdminLTE.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/admin-lte/2.4.9/css/skins/skin-blue.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -18,16 +20,44 @@
 </head>
 
 <body class='hold-transition skin-blue sidebar-mini'>
-<div class='wrapper'>
-    <!--main header-->
-    <div class='main-header'>
-        <a href='#' class='logo'>
-            <span class='logo-mini'><b>CMCC</b></span>
-            <span class='logo-lg'><b>CMCC</b></span>
-        </a>
+    <div class='wrapper'>
+        <!--main header-->
+        <header class='main-header'>
+            <a href='#' class='logo'>
+                <span class='logo-mini'><b>CMCC</b></span>
+                <span class='logo-lg'><b>CMCC</b></span>
+            </a>
+        </header>
+        <!--sidebar nav-->
+        <aside class='main-sidebar'>
+            <section class='sidebar'>
+                <ul class='sidebar-menu' data-widget='tree'>
+                    <li class='header'>
+                        Main Navigation
+                    </li>
+                    <li class='active'>
+                        <a href='#'>
+                            <i class='fa fa-bank'></i><span>
+                                Main page
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <i class='fa fa-industry'></i><span>
+                                import data
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        <div id='contentPage' class='content-wrapper'>
+
+        </div>
     </div>
 
-</div>
+    </div>
 </body>
 
-</html>>
+</html>
